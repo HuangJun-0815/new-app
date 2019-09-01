@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"tower-swiper .",[1],"tower-item { -webkit-transform: scale(calc(0.5 + var(--index) / 10)); -ms-transform: scale(calc(0.5 + var(--index) / 10)); transform: scale(calc(0.5 + var(--index) / 10)); margin-left: calc(var(--left) * ",[0,100]," - ",[0,150],"); z-index: var(--index); }\n",],undefined,{path:"./pages/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index.wxml') } }));

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/my"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#666666",
+    "selectedColor": "#FF7070",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "首页",
+        "iconPath": "/static/tabbar/tabbar-index.png",
+        "selectedIconPath": "/static/tabbar/tabbar-index-select.png"
+      },
+      {
+        "pagePath": "pages/my",
+        "text": "我的",
+        "iconPath": "/static/tabbar/tabbar-my.png",
+        "selectedIconPath": "/static/tabbar/tabbar-my-select.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "测试",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}
