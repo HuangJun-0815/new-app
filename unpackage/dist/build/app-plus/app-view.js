@@ -11,7 +11,7 @@ var __WXML_GLOBAL__ = {
 };
 var $gwx;
 
-/*v0.5vv_20190312_syb_scopedata*/window.__wcc_version__='v0.5vv_20190312_syb_scopedata';window.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
+/*v0.5vv_20181221_syb_scopedata*/window.__wcc_version__='v0.5vv_20181221_syb_scopedata';window.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
 var $gwxc
 var $gaic={}
 $gwx=function(path,global){
@@ -1126,6 +1126,16 @@ function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'content'])
+Z([[2,'+'],[[2,'+'],[1,'height:'],[[2,'+'],[[7],[3,'height']],[1,'px']]],[1,';']])
+Z([3,'top_oblique'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
+}
+function gz$gwx_4(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
+__WXML_GLOBAL__.ops_cached.$gwx_4=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'content'])
 Z([3,'bg-gradual-pink'])
 Z([3,'__l'])
 Z([1,false])
@@ -1133,15 +1143,19 @@ Z([3,'1'])
 Z([[4],[[5],[[5],[1,'backText']],[1,'content']]])
 Z([3,'backText'])
 Z([3,'返回'])
-Z([3,'content'])
+Z(z[0])
 Z([3,'我的'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
+Z([3,'__e'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[1,'login']]]]]]]]])
+Z([3,'primary'])
+Z([3,'点击'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./colorui/components/cu-custom.wxml','./pages/index.wxml','./pages/my.wxml'];d_[x[0]]={}
+var x=['./colorui/components/cu-custom.wxml','./pages/index.wxml','./pages/login/login.wxml','./pages/my.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_n('view')
@@ -1229,21 +1243,39 @@ e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var c8=_mz(z,'cu-custom',['bgColor',0,'bind:__l',1,'isBack',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var c8=_mz(z,'view',['class',0,'style',1],[],e,s,gg)
 var h9=_n('view')
-_rz(z,h9,'slot',5,e,s,gg)
-var o0=_oz(z,6,e,s,gg)
-_(h9,o0)
+_rz(z,h9,'class',2,e,s,gg)
 _(c8,h9)
-var cAB=_n('view')
-_rz(z,cAB,'slot',7,e,s,gg)
-var oBB=_oz(z,8,e,s,gg)
-_(cAB,oBB)
-_(c8,cAB)
 _(r,c8)
 return r
 }
 e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
+d_[x[3]]={}
+var m3=function(e,s,r,gg){
+var z=gz$gwx_4()
+var cAB=_n('view')
+_rz(z,cAB,'class',0,e,s,gg)
+var oBB=_mz(z,'cu-custom',['bgColor',1,'bind:__l',1,'isBack',2,'vueId',3,'vueSlots',4],[],e,s,gg)
+var lCB=_n('view')
+_rz(z,lCB,'slot',6,e,s,gg)
+var aDB=_oz(z,7,e,s,gg)
+_(lCB,aDB)
+_(oBB,lCB)
+var tEB=_n('view')
+_rz(z,tEB,'slot',8,e,s,gg)
+var eFB=_oz(z,9,e,s,gg)
+_(tEB,eFB)
+_(oBB,tEB)
+_(cAB,oBB)
+var bGB=_mz(z,'button',['bindtap',10,'data-event-opts',1,'type',2],[],e,s,gg)
+var oHB=_oz(z,13,e,s,gg)
+_(bGB,oHB)
+_(cAB,bGB)
+_(r,cAB)
+return r
+}
+e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -1373,6 +1405,9 @@ __wxAppCode__['colorui/components/cu-custom.wxml']=$gwx('./colorui/components/cu
 
 __wxAppCode__['pages/index.wxss']=setCssToHead([".",[1],"tower-swiper .",[1],"tower-item { -webkit-transform: scale(calc(0.5 + var(--index) / 10)); -ms-transform: scale(calc(0.5 + var(--index) / 10)); transform: scale(calc(0.5 + var(--index) / 10)); margin-left: calc(var(--left) * ",[0,100]," - ",[0,150],"); z-index: var(--index); }\n",],undefined,{path:"./pages/index.wxss"});    
 __wxAppCode__['pages/index.wxml']=$gwx('./pages/index.wxml');
+
+__wxAppCode__['pages/login/login.wxss']=setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content { position: relative; background: -webkit-gradient(linear, left top, right bottom, from(#6eccff), to(#a427b0)); background: -o-linear-gradient(left top, #6eccff, #a427b0); background: linear-gradient(left top, #6eccff, #a427b0); }\n.",[1],"content .",[1],"top_oblique { width: 100%; height: ",[0,350],"; border-radius: ",[0,50],"; background: #718bdf; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); position: absolute; top: ",[0,-350],"; }\n",],undefined,{path:"./pages/login/login.wxss"});    
+__wxAppCode__['pages/login/login.wxml']=$gwx('./pages/login/login.wxml');
 
 __wxAppCode__['pages/my.wxss']=undefined;    
 __wxAppCode__['pages/my.wxml']=$gwx('./pages/my.wxml');
