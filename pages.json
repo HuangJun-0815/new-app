@@ -30,9 +30,9 @@
 		"selectedColor": "#FF7070",
 		"list": [{
 				"pagePath": "pages/index",
-				"text": "首页",
-				"iconPath": "/static/tabbar/tabbar-index.png",
-				"selectedIconPath": "/static/tabbar/tabbar-index-select.png"
+				"text": "书架",
+				"iconPath": "/static/tabbar/book.png",
+				"selectedIconPath": "/static/tabbar/book_s.png"
 			},
 			// {
 			// 	"pagePath": "pages/square/square",
@@ -43,8 +43,8 @@
 			{
 				"pagePath": "pages/my",
 				"text": "我的",
-				"iconPath": "/static/tabbar/tabbar-my.png",
-				"selectedIconPath": "/static/tabbar/tabbar-my-select.png"
+				"iconPath": "/static/tabbar/my.png",
+				"selectedIconPath": "/static/tabbar/my_s.png"
 			}
 		]
 	}
